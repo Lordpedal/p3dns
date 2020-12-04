@@ -13,7 +13,7 @@ services:
     environment:
       TZ: 'Europe/Madrid'
     volumes:
-      - '~/docker/pihole/dnscrypt-proxy:/config'
+      - '~/docker/piholeproxy/dnscrypt-proxy:/config'
     dns:
       - 1.1.1.1
     restart: always
@@ -27,16 +27,16 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      - "89:80/tcp"
-      - "4443:443/tcp"
+      - "83:80/tcp"
+      - "446:443/tcp"
     environment:
       TZ: 'Europe/Madrid'
       WEBPASSWORD: 'lordpedal'
       DNS1: "10.0.1.2#5300"
       DNS2: "no"
     volumes:
-       - '~/docker/pihole/pihole/:/etc/pihole/'
-       - '~/docker/pihole/dnsmasq/:/etc/dnsmasq.d/'
+       - '~/docker/piholeproxy/pihole/:/etc/pihole/'
+       - '~/docker/piholeproxy/dnsmasq/:/etc/dnsmasq.d/'
     dns:
       - 1.1.1.1
     restart: always
