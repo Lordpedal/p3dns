@@ -1,5 +1,4 @@
-# tips for Linux
+# Docker Pi-hole & dnscrypt-proxy
 
-Recopilatorio de pequeños tips para Linux
 
 ... la culminación de un fin es el comienzo de una realidad.
