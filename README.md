@@ -1,4 +1,4 @@
-# Docker Pi-hole + dnscrypt-proxy
+# docker Pi-hole + docker dnscrypt-proxy + docker Cloudflared
 
 **Dependencias a instalar:** ``sudo apt-get -y install curl``
 
