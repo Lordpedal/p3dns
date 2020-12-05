@@ -1,4 +1,6 @@
-# docker Pi-hole + docker dnscrypt-proxy + docker Cloudflared
+# P3DNS - Personal DNS Proxy
+
+## docker Pi-hole + docker dnscrypt-proxy + docker Cloudflared
 
 **Dependencias a instalar:** ``sudo apt-get -y install curl``
 
