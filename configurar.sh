@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Configurador Docker: Pi-hole
+#
 echo -e "\e[1;33mConfigurando Docker: Pi-hole\e[0m"
 cp docker-compose.p3 docker-compose.yml
 read -p "Puerto web para gestion Pi-hole (recomendado 83): " puerto
