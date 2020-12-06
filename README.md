@@ -6,7 +6,7 @@
 
 **Configurar Docker:** ``chmod +x configurar.sh``
 
-### Opcional
+### Opcional:
 
 **Lista ADS:** ``chmod +x listads.sh``
 
