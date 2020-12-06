@@ -1,4 +1,4 @@
-# P3DNS - Personal DNS Proxy
+# P3DNS - Personal DNS Proxy - [Tutorial](https://blog.lordpedal.duckdns.org/p3dns-docker/ "P3DNS: Docker")
 
 ## docker Pi-hole + docker dnscrypt-proxy + docker Cloudflared
 
