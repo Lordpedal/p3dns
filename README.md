@@ -6,6 +6,8 @@
 
 **Configurar Docker:** ``chmod +x configurar.sh``
 
+### Opcional
+
 **Lista ADS:** ``chmod +x listads.sh``
 
 **Cron Lista:** ``0 */12 * * * ~/docker/p3dns/listads.sh >/dev/null 2>&1``
