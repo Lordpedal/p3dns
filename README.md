@@ -1,4 +1,4 @@
-# P3DNS: Personal DNS Proxy
+# P3DNS: Personal DNS Proxy - [Overclock Server](https://lordpedal.github.io)
 
 ## docker Pi-hole + docker dnscrypt-proxy + docker Cloudflared
 
