@@ -4,7 +4,7 @@
 
 **Dependencias a instalar:** ``sudo apt-get -y install curl``
 
-**Configurar Docker:** ``chmod +x configurar.sh``
+**Configurar Docker:** ``chmod +x configurar.sh && ./configurar.sh``
 
 ### Opcional:
 
