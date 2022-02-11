@@ -15,7 +15,7 @@ services:
     volumes:
       - '~/docker/p3dns/dnscrypt-proxy:/config'
     dns:
-      - 1.1.1.1
+      - 127.0.0.1
     restart: always
 
   cloudflared:
@@ -57,7 +57,7 @@ services:
        - '~/docker/p3dns/pihole/:/etc/pihole/'
        - '~/docker/p3dns/dnsmasq/:/etc/dnsmasq.d/'
     dns:
-      - 1.1.1.1
+      - 127.0.0.1
     restart: always
     depends_on:
       - dnscrypt
