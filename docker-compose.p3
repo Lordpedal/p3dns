@@ -13,7 +13,7 @@ services:
     environment:
       TZ: 'Europe/Madrid'
     volumes:
-      - '~/docker/p3dns/dnscrypt-proxy:/config'
+      - './dnscrypt-proxy:/config'
     dns:
       - 127.0.0.1
     restart: always
@@ -54,8 +54,8 @@ services:
       DNS_FQDN_REQUIRED: 'true'
       DNS_BOGUS_PRIV: 'true'
     volumes:
-       - '~/docker/p3dns/pihole/:/etc/pihole/'
-       - '~/docker/p3dns/dnsmasq/:/etc/dnsmasq.d/'
+       - './pihole/:/etc/pihole/'
+       - './dnsmasq/:/etc/dnsmasq.d/'
     dns:
       - 127.0.0.1
     restart: always
