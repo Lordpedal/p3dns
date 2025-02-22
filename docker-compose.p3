@@ -62,6 +62,9 @@ services:
     volumes:
        - './pihole/:/etc/pihole/'
        #- './dnsmasq/:/etc/dnsmasq.d/' # Versión obsoleta v5.x N/A
+    cap_add:
+      - SYS_TIME
+      - SYS_NICE
     dns:
       - 127.0.0.1
       - 1.1.1.1
