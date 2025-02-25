@@ -58,7 +58,7 @@ services:
       FTLCONF_dns_domainNeeded: 'true'
       #DNS_BOGUS_PRIV: '' # Versión obsoleta v5.x N/A
       FTLCONF_dns_bogusPriv: 'true'
-      FTLCONF_debug_api: 'true'
+      #FTLCONF_debug_api: 'true' # Opcional
     volumes:
        - './pihole/:/etc/pihole/'
        #- './dnsmasq/:/etc/dnsmasq.d/' # Versión obsoleta v5.x N/A
